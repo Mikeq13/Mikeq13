@@ -41,7 +41,7 @@ class PortfoliosController < ApplicationController
 
   def destroy
     #perform look up
-    @portfolio_item.destroy = Portfolio.find(params[:id])
+    @portfolio_item = Portfolio.find(params[:id])
     # Destroy/delete the record
     @portfolio_item.destroy
     # Redirect
