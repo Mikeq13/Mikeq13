@@ -1,12 +1,7 @@
-GIT
-  remote: https://github.com/Mikeq13/Quintero_view_tool
-  revision: 0bcb5d79d69923fb0b96120a0774a1a0bf7effeb
-  specs:
-    Quintero_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    Quintero_view_tool (0.1.0)
     actioncable (5.0.1)
       actionpack (= 5.0.1)
       nio4r (~> 1.2)
@@ -182,7 +177,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Quintero_view_tool!
+  Quintero_view_tool (~> 0.1.0)
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.3)
