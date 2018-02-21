@@ -15,8 +15,9 @@ module ApplicationHelper
 			content_tag(:p, greeting, class: "source-greeting")
 		end
 	end
-
+	
 	def copyright_generator
-		QuinteroViewTool::Renderer.copyright 'Michael Quintero', 'All Rights Reserved'
+  	 DevcampViewTool::Renderer.copyright "Mike Quintero", "All rights reserved"
+
 	end
 end
