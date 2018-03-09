@@ -168,8 +168,15 @@ body {
  .card-block {
   color: black;
   text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
  }
 
  .auth-links a{
     color: black;
+ }
+
+ .register-text{
+ text-align: right;
+ padding-bottom: 20px;
  }
