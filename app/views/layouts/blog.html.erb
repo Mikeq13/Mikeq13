@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
@@ -10,17 +12,25 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
+
   <body>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
 
-  <%= login_helper %>
-  
-  <%= yield %>
+    <%= render 'shared/blog_nav' %>
+    <%= render 'shared/blog_header' %>
 
-  <%= render "shared/nav" %>
+    <div class="container">
 
-  <%= source_helper("blog") %>
+      <div class="row">
 
+        <%= yield %>
+
+        <%= render 'shared/blog_sidebar' %>
+      </div>
+
+      <%= render 'shared/blog_footer' %>
+
+      <%= source_helper("blog") %>
+    </div> 
   </body>
 </html>

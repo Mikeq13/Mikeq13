@@ -1,9 +1,12 @@
-<h1>Hi, <%= current_user.first_name if current_user %></h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="inner cover">
+  <h1 class="cover-heading">Web Development</h1>
+  <p class="lead"> <img src=" http://www.digiiii.com/wp-content/uploads/2017/09/1504771647-1480-e8ca-4c23-8e4e-3e55df6a0543.jpg" /></p>
+  <p class="lead">
+    <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary"%>
+  </p>
+</div>
 
-<h1>Blog Posts</h1>
-<%= @posts.inspect %>
-<h1>Skills</h1>
-<%= @skills.inspect %>
+
+
 
 
