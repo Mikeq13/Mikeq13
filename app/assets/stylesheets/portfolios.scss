@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "jquery-ui";
+@import "font-awesome";
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
@@ -64,3 +65,30 @@ footer p {
 .portfolio-form {
   padding: 20px;
 }
+
+.navbar-brand {
+  color: white;
+    &:hover {
+    color: gray;
+  }
+}
+
+.navbar-toggler {
+  color: white;
+  size: 2x;
+}
+
+.fa fa-bars {
+  color: white;
+    &:hover {
+    color: gray;
+  }
+}
+
+.button {
+  color: white;
+    &:hover {
+    color: gray;
+  }
+}
+
