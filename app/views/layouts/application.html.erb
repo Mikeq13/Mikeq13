@@ -13,12 +13,17 @@
   </head>
 
   <body>
-  <div class="site-wrapper">
-
+    <div class="site-wrapper">
       <div class="site-wrapper-inner">
-
         <div class="cover-container">
-
+          <%= video_tag(
+            'background_video.mp4', 
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            poster: 'home_bg.png'
+          )
+          %>
           <%= render "shared/application_nav" %>
           <%= yield %>
           <%= render "shared/application_footer" %>
