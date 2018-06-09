@@ -3,11 +3,13 @@
     <h4>About</h4>
     <p>Welcome to my personal website!  I have a variety of different hobbies.  I've recently gained a love for development which is why I decided to put this website together.  I enjoy pretty much anything outdoors and I just love life.  Click on any of the icons below to learn more about me.</p>
   </div>
+
+  <%= source_helper("alert alert-info blog-sidebar-source") %>
   
   <div class="sidebar-module">
     <h4>Topics</h4>
     <% @side_bar_topics.each do |topic| %>
-      <p><%= link_to topic.title, topic_path(topic)%></p>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
     <% end %>
   </div>
 
