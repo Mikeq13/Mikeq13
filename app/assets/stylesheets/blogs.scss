@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Raleway', sans-serif;
   color: #555;
 }
 
@@ -23,7 +23,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lobster', cursive;
   font-weight: normal;
   color: #333;
 }
@@ -163,7 +163,7 @@ h6, .h6 {
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #e9ecef;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
@@ -189,4 +189,27 @@ h6, .h6 {
 
 .comment-name {
   font-weight: 700;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0069d9;
+}
+
+.blogcrumb a {
+  font-size: 1.25 em;
+  margin: 0px 5px 0px 5px;
+}
+
+.blog-nav {
+  margin-bottom: 30px;
+}
+
+.blog-sidebar-source{
+  margin-top: 20px;
 }
