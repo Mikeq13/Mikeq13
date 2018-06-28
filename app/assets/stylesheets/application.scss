@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "gritter";
+@import "font-awesome";
 
 /*
  * Globals
@@ -134,6 +135,7 @@ h6, .h6 {
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+  padding-top: 10px;
 }
 
 
@@ -265,3 +267,28 @@ h6, .h6 {
   margin-bottom: 10px;
 }
 
+.fa-reply {
+  float: left;
+  color: black;
+}
+
+.fa-share {
+  float: right;
+  color: black;
+}
+
+.fa-reply a {
+  color: black;
+}
+
+.fa-share a {
+  color: black;
+}
+
+.arrow {
+  color: black;
+}
+
+.arrow a:hover {
+  color: blue;
+}
