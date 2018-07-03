@@ -270,19 +270,21 @@ h6, .h6 {
 .fa-reply {
   float: left;
   color: black;
+  size: 1x;
 }
 
 .fa-share {
   float: right;
   color: black;
+  size: 1x;
 }
 
-.fa-reply a {
-  color: black;
+.fa-reply a:hover {
+  color: blue;
 }
 
-.fa-share a {
-  color: black;
+.fa-share a:hover {
+  color: blue;
 }
 
 .arrow {
